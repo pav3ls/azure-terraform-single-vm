@@ -1,3 +1,4 @@
+
 # Create Network and single VM using terraform on Azure
 
 
@@ -13,9 +14,9 @@ az ad sp create-for-rbac --role="Contributor" --scopes="/subscriptions/SUBSCRIPT
 
 ## Configuring the Service Principal in Terraform
 
-appId is the client_id defined above.
-password is the client_secret defined above.
-tenant is the tenant_id defined above.
+`appId` is the `client_id` defined above.  
+`password` is the `client_secret` defined above.  
+`tenant` is the `tenant_id` defined above.  
 
 ```
 export ARM_CLIENT_ID=""
